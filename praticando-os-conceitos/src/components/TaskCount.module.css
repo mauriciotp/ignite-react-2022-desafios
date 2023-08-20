@@ -1,0 +1,26 @@
+.info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.created {
+  color: var(--blue-500);
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.completed {
+  color: var(--purple-800);
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.count {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gray-200);
+  padding: 0.2rem 0.5rem;
+  background: var(--gray-400);
+  border-radius: 8px;
+}

@@ -1,7 +1,21 @@
+import { Header } from './components/Header';
+import styles from './App.module.css';
 import './global.css';
+import { TaskForm } from './components/TaskForm';
+import { Tasks } from './components/Tasks';
 
 function App() {
-  return <h1>Todo List</h1>;
+  return (
+    <>
+      <Header />
+      <main>
+        <div className={styles.wrapper}>
+          <TaskForm />
+          <Tasks />
+        </div>
+      </main>
+    </>
+  );
 }
 
 export default App;
