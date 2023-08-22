@@ -11,6 +11,12 @@
 }
 
 .tasksBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tasksBoxEmpty {
   border-top: 1px solid var(--gray-400);
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;

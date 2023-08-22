@@ -10,7 +10,11 @@
   border-radius: 8px;
   background: var(--gray-500);
   color: var(--gray-100);
-  box-shadow: 0 0 0 1px var(--gray-700) inset;
+  box-shadow: 0 0 0 1px var(--gray-700);
+}
+
+.form input:focus {
+  box-shadow: 0 0 0 1px var(--purple-800);
 }
 
 .form button {
